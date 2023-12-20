@@ -1,0 +1,17 @@
+*::-webkit-scrollbar-track
+{
+	border: 1px solid blueviolet;
+	background-color: #4b1d52;
+}
+
+*::-webkit-scrollbar
+{
+	width: 10px;
+	background-color: #4b1d52;
+}
+
+*::-webkit-scrollbar-thumb
+{
+	background-color: blueviolet;	
+}
+

@@ -1,0 +1,31 @@
+.data-table-container {
+    height: 80vh;
+    overflow-y: auto;
+    overflow-x: hidden;
+    border: 1px solid blueviolet;
+}
+.data-table {
+    width: 70vw;
+    height: auto;
+    border-collapse: collapse;
+    column-gap: 1rem;
+    text-align: center;
+}
+.data-table-thead {
+    border-bottom: 3px solid blueviolet;
+    position: sticky;
+    top: -1px;
+}
+th, td {
+    padding: 1rem;
+}
+.theme-input{
+    border: 1px solid blueviolet;
+    font-weight: 700;
+    outline: none;
+    /* background-color: #f5f5f7; */
+}
+.theme-input:focus{
+    border-left: 5px solid blueviolet;
+
+}

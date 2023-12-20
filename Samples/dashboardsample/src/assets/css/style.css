@@ -1,0 +1,270 @@
+body {
+    margin: 0px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: rgb(54, 0, 67) !important;
+}
+
+.dark-theme {
+    background-color: #000;
+    color: #fff;
+}
+
+.light-theme {
+    background-color: #fff;
+    color: #000;
+}
+
+.theme-color {
+    color: blueviolet;
+}
+
+.theme-bg {
+    background-color: rgb(66, 65, 65);
+}
+
+.hv-5 {
+    height: 5vh;
+}
+
+.hv-10 {
+    height: 10vh
+}
+
+.hv-20 {
+    height: 20vh
+}
+.hv-30 {
+    height: 30vh
+}
+.hv-70 {
+    height: 70vh
+}
+
+.hv-100 {
+    height: 100vh;
+}
+
+
+.hv-95 {
+    height: 95vh
+}
+
+.hv-90 {
+    height: 90vh
+}
+
+.hv-80 {
+    height: 10vh
+}
+
+.wv-100 {
+    width: 100vw;
+}
+
+.wv-95 {
+    width: 100vw;
+}
+
+.wv-10 {
+    width: 10vw;
+}
+
+.wv-15 {
+    width: 15vw;
+}
+
+.wv-20 {
+    width: 20vw;
+}
+
+.wv-90 {
+    width: 90vw;
+}
+
+.wv-85 {
+    width: 85vw;
+}
+
+.wv-80 {
+    width: 80vw;
+}
+.wv-70 {
+    width: 70vw;
+}
+.wv-30 {
+    width: 30vw;
+}
+
+.wv-50 {
+    width: 50vw;
+}
+
+.w-100 {
+    width: 100%;
+}
+.w-80 {
+    width: 80%;
+}
+
+.h-100 {
+    height: 100%;
+}
+
+.h-90 {
+    height: 90%;
+}
+
+.h-10 {
+    height: 10%;
+}
+
+.m-1 {
+    margin: 1rem;
+}
+
+.mx-1 {
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+.my-1 {
+    margin-top: 1rem;
+    margin-right: 1rem;
+}
+
+.flex {
+    display: flex;
+}
+
+.flex-col {
+    flex-direction: column;
+}
+
+.flex-row {
+    flex-direction: row;
+}
+
+.items-center {
+    align-items: center;
+}
+
+.justify-center {
+    justify-content: center;
+}
+
+.justify-start {
+    justify-content: start;
+}
+
+.justify-end {
+    justify-content: end;
+}
+
+.shadow {
+    box-shadow:
+        2.8px 2.8px 2.2px rgba(0, 0, 0, 0.02),
+        6.7px 6.7px 5.3px rgba(0, 0, 0, 0.028),
+        12.5px 12.5px 10px rgba(0, 0, 0, 0.035),
+        22.3px 22.3px 17.9px rgba(0, 0, 0, 0.042),
+        41.8px 41.8px 33.4px rgba(0, 0, 0, 0.05),
+        100px 100px 80px rgba(0, 0, 0, 0.07);
+}
+
+
+.content-wrapper {
+    width: 84vw;
+    height: 94vh;
+    /* box-shadow: 2px 2px 15px rgb(191, 0, 255); */
+}
+
+.theme-btn-primary {
+    width: 90%;
+    height: 5vh;
+    outline: none;
+    border: none;
+    /* border: 1px solid blueviolet; */
+    border-left: 8px solid blueviolet;
+    cursor: pointer;
+    font-size: 1rem;
+    font-weight: bold;
+    background-color: transparent;
+}
+
+.theme-btn-danger {
+    width: 90%;
+    height: 5vh;
+    outline: none;
+    border: none;
+    /* border: 1px solid blueviolet; */
+    border-left: 8px solid rgb(255, 0, 0);
+    cursor: pointer;
+    font-size: 1rem;
+    font-weight: bold;
+    background-color: transparent;
+
+}
+
+.theme-btn-primary-dark {
+    color: blueviolet;
+    background-color: black;
+    border-left: 8px solid rgb(108, 3, 206);
+    box-shadow: 1px 1px 10px rgba(191, 0, 255, 0.338);
+}
+
+.theme-btn-primary-dark:hover {
+    color: black;
+    background-color: blueviolet;
+    border-left: 8px solid rgb(85, 1, 163);
+}
+
+.theme-btn-primary-light {
+    color: blueviolet;
+    background-color: #fff;
+    box-shadow: 1px 1px 10px rgba(191, 0, 255, 0.097);
+}
+
+.theme-btn-primary-light:hover {
+    color: #fff;
+    background-color: blueviolet;
+    border-left: 8px solid rgb(85, 1, 163);
+}
+
+/* box-shadow: 0 0 10px 5px; */
+
+.theme-btn-danger-dark {
+    color: rgb(255, 0, 0);
+    background-color: black;
+    border-left: 8px solid rgb(255, 0, 0);
+    box-shadow: 1px 1px 10px rgba(255, 0, 0, 0.338);
+}
+
+.theme-btn-danger-dark:hover {
+    color: black;
+    background-color: rgb(255, 0, 0);
+    border-left: 8px solid rgb(196, 2, 2);
+}
+
+.theme-btn-danger-light {
+    color: rgb(255, 0, 0);
+    background-color: #fff;
+    box-shadow: 1px 1px 10px rgba(255, 0, 0, 0.338);
+}
+
+.theme-btn-danger-light:hover {
+    color: #fff;
+    background-color: rgb(255, 0, 0);
+    border-left: 8px solid rgb(196, 2, 2);
+}
+
+.gap {
+    gap: 0.6rem
+}
+.p-1{
+    padding:1rem;
+}
+.add-btn{
+    /* position: absolute; */
+    width: 8vw;
+    right: 8%;
+    top: 7%;
+}

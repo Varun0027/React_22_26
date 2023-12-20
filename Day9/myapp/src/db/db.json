@@ -1,0 +1,9 @@
+{
+  "users": [],
+  "products": [
+    {
+      "pid": 1,
+      "productname": "apple"
+    }
+  ]
+}
