@@ -1,6 +1,7 @@
 import { createSlice, createAsyncThunk } from "@reduxjs/toolkit";
 import axios from 'axios'
 
+
 export const fetchPosts =
     createAsyncThunk('gets/fetchPosts', async () => {
         return axios.get("http://localhost:8081/posts")
@@ -29,9 +30,6 @@ export const postSlice = createSlice({
             });
     }
 })
-
 export const getPosts = (state) => state.posts.posts;
 export const getPostsStatus = (state) => state.posts.loading;
-
-
 export default postSlice.reducer
