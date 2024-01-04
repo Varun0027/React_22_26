@@ -1,23 +1,23 @@
-import React, { useEffect, useState } from 'react'
+// import React, { useEffect, useState } from 'react'
 
-const WithLoading = (WrappedComponent) => {
-  return function WithLoading (props){
-     const [isLoading, setIsLoading] =useState(true)
+// const WithLoading = (WrappedComponent) => {
+//   return function WithLoading (props){
+//      const [isLoading, setIsLoading] =useState(true)
 
-    useEffect (()=>{
+//     useEffect (()=>{
 
-        setTimeout(()=>{
-            setIsLoading(false)
-        },2000)
+//         setTimeout(()=>{
+//             setIsLoading(false)
+//         },2000)
 
-    },[])    
-    return isLoading ? (
-    <>
-    Loading
-    </>) :(
-        <WrappedComponent {...props}/>
-    )
-  }
-}
+//     },[])    
+//     return isLoading ? (
+//     <>
+//     Loading
+//     </>) :(
+//         <WrappedComponent {...props}/>
+//     )
+//   }
+// }
 
-export default WithLoading
+// export default WithLoading
